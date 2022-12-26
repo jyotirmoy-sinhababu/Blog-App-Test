@@ -2,6 +2,7 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 
 import './home.css';
+import like from '../../images/like.svg';
 
 import Nav from '../../component/navbar/Nav';
 
@@ -44,7 +45,10 @@ const Home = () => {
               </div>
               <div className='posts-like'>
                 <img className='img' src={item.image} />
-                <p>{item.likes}</p>
+                <div style={{ display: 'flex' }}>
+                  <img src={like} alt='like' />
+                  <p>{item.likes}</p>
+                </div>
               </div>
             </div>
           );
