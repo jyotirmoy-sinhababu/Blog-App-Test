@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+
+.home-main-cnt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1500px;
+  width: 100%;
+  gap: 50px;
+  border: solid 2px red;
+}
+
+.home-card-cnt {
+  height: 400px;
+  width: 350px;
+  gap: 1.8px;
+}
+
+.profile-data-cnt {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding-left: 45px;
+}
+
+.profile-data-txt {
+  font-size: 1.2rem;
+  font-family: 'Oswald', sans-serif;
+}
+
+.picture {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.posts-like {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.img {
+  height: 255px;
+  width: 255px;
+  border-radius: 19px;
+}
