@@ -1,0 +1,41 @@
+.my-pic-cnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.my-pic {
+  height: 205px;
+  width: 205px;
+  border-radius: 50%;
+}
+
+.abt-all-txt-cnt {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.abt-header-cnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.abt-para-txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: larger;
+  font-weight: 400;
+}
+
+.my-contact {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
